@@ -1,0 +1,8 @@
+.header__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    background-color: var(--th-black);
+}
