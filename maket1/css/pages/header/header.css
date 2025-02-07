@@ -1,19 +1,35 @@
 .header{
-    width: 1440px;
     height: 120px;
-    background-color: var(--th-black);
+    background-color: var(--th-black); 
 }
 
 
 .header__container{
     display: flex;
-    flex-direction: row;
     height: 120px;
-    justify-content: space-between;
+    align-items: center;
+    gap: 30px
+}
+
+.header__logo{
+    align-self: center;
 }
 
 .header__nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    margin-right: 650px;
+}
+
+.header__item{
+    display: flex;
+    gap: 20px;  
+}
+
+.header__link, .header__link:active{
+    color: var(--white);
+}
+
+.header__link:hover{
+    color: var(--mediter);
 }
