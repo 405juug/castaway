@@ -1,0 +1,139 @@
+.latest{
+    background-color: var(--th-black);
+}
+
+.latest__container{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.latest__episodes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 1300px;
+    max-height: 1689px;
+
+}
+
+.latest__episode img{
+    width: 389px;
+    height: 465px;
+}
+
+.latest__episode{
+    display: flex;
+    margin-bottom: 60px;
+    background-color: var(--black);
+    border-radius: 32px;
+    width: 1300px;
+    height: 545px;
+}
+
+.latest__rightside{
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    height: 465px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.latest__header{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 99px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.latest__button{
+    max-width: 208px;
+    height: 51px;
+    background-color: var(--mediter);
+    font-family: 'dmsans';
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--white);
+    border-radius: 6px;
+}
+
+.latest__gear{
+    background-color: var(--th-black);
+    width: 73px;
+    height: 27px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'dmsans';
+    margin-bottom: 50px;
+}
+
+.latest__tips{
+    width: 136px;
+    height: 27px;
+    background-color: var(--th-black);
+    text-align: center;
+    color: var(--white);
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'dmsans';
+    margin-bottom: 50px;
+}
+
+.latest__number{
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'dmsans-light';
+    color: var(--mediter);
+}
+
+.latest__leftside{
+    margin-left: 40px;
+    align-content: center;
+}
+
+.latest__episodetitle{
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    font-family: 'dmsans';
+    color: var(--white);
+    margin-top: 17px;
+}
+
+.latest__episodetext{
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'dmsans-light';
+    color: var(--white);
+    opacity: 70%;
+    margin-bottom: 18px;
+}
+
+.latest__headertitle{
+    height: 80px;
+    font-family: 'dmsans';
+    color: var(--white);
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.latest__headerbutton{
+    width: 178px;
+    height: 51px;
+    background-color: var(--mediter);
+    font-family: 'dmsans';
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--white);
+    align-self: center;
+    border-radius: 6px;
+
+}

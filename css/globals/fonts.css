@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "dmsans-light";
+    src: url(/fonts/Sans/DMSans_18pt-Light.ttf);
+}
+
+@font-face {
+    font-family: "dmsans-bold";
+    src: url(/fonts/Sans/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'dmsans';
+    src: url(/fonts/Sans/DMSans-Regular.ttf);
+}
