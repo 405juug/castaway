@@ -13,7 +13,7 @@
     grid-template-columns: repeat(1, 1fr);
     width: 1300px;
     max-height: 1689px;
-
+    margin-bottom: 259px;
 }
 
 .latest__episode img{
@@ -135,5 +135,4 @@
     color: var(--white);
     align-self: center;
     border-radius: 6px;
-
 }

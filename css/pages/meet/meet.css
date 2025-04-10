@@ -1,0 +1,64 @@
+.meet{
+    background-color: var(--th-black);
+}
+
+.meet__container{
+    display: flex;
+    flex-direction: row;
+}
+
+.meet__leftside{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 448px;
+    margin-right: 60px;
+    align-self: center;
+}
+
+.meet__leftsideimg{
+    width: 112px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+.meet__leftsidetitle{
+    color: var(--mediter);
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'dmsans';
+}
+
+.meet__leftsidename{
+    color: var(--white);
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    font-family: 'dmsans';
+    margin-bottom: 28px;
+}
+
+.meet__leftsidetext{
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'dmsans';
+    margin-bottom: 33px;
+    color: var(--white);
+}
+
+.meet__leftsidetext2{
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'dmsans';
+    color: var(--white);
+}
+
+.meet__rightside{
+    display: flex;
+}
+
+.meet__rightsideimg{
+    width: 650px;
+    height: 743px;
+    border-radius: 12px;
+}
