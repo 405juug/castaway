@@ -15,6 +15,8 @@
     border-radius: 32px;
     display: flex;
     flex-direction: row;
+    position: relative;
+    margin-bottom: 200px;
 }
 
 .newsletter__textblock{
@@ -81,4 +83,18 @@
     width: 87px;
     background-color: var(--mediter);
     color: var(--white);
+}
+
+
+.newsletter__block::before{
+    content: '';
+
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    background-image: url(/images/subscribe/IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 147px;
+    height: 91px;
 }
