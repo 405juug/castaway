@@ -81,3 +81,11 @@
 .footer__3rdsidelink:hover{
     border-bottom: 1px solid #FFFFFF;
 }
+
+.footer__3rdsidelink{
+    color: var(--white);
+}
+
+.footer__2ndsidelink{
+    color: var(--white);
+}
