@@ -1,0 +1,244 @@
+@media (max-width: 375px) {
+    [class*='__container'] {
+        max-width: 250px;
+    }
+
+    .header__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .header__logo{
+        max-width: 250px;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+    .header__navbar{
+        align-self: center;
+        flex-direction: column;
+        padding: 0;
+        gap: 10px
+    }
+
+    .header__nav{
+        align-self: center;
+        flex-direction: column;
+    }
+
+    .header__list{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header__logo img{
+        width: 120px;
+    }
+
+    .nextlvl__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 40px 20px;
+        gap: 30px;
+        height: 800px;
+    }
+
+    .nextlvl__img{
+        max-width: 250px;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .nextlvl__rightside{
+        width: 100%;
+        max-width: 250px;
+        align-items: center;
+        text-align: center;
+        align-self: unset;
+    }
+
+    .nextlvl__text{
+        margin-left: 0;
+    }
+
+    .nextlvl__title{
+        font-size: 45px;
+        line-height: 55px;
+        margin-left: 0;
+    }
+
+    .nextlvl__title strong{
+        font-size: 50px;
+    }
+
+    .nextlvl__logobar{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .nextlvl__logos{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .nextlvl__logo{
+        width: 28px;
+        height: 28px;
+    }
+
+    .latest__container{
+        height: 400px;
+        margin-bottom: 2000px
+    }
+
+    .latest__episodes{
+        width: 100%;
+        display: flex;
+        max-width: 250px;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .latest__episode{
+        flex-direction: column;
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+
+    .latest__leftside{
+        margin-left: 0;
+    }
+
+    .latest__photo, .latest__leftside img{
+        width: 100%;
+        height: auto;
+        border-radius: 16px 16px 0 0;
+    }
+
+    .latest__rightside{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 16px;
+        box-sizing: border-box;
+        align-items: center;
+        text-align: center;
+    }
+
+    .latest__episodetitle{
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-top: 12px;
+    }
+
+    .latest__episodetext{
+        font-size: 15px;
+        line-height: 22px;
+        margin: 12px 0;
+    }
+
+    .latest__gear, .latest__tips, .latest__number{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .latest__button{
+        font-size: 14px;
+        padding: 6px 12px;
+        height: auto;
+        width: 100%;
+        max-width: 180px;
+    }
+
+    .latest__header{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 16px;
+        margin-bottom: 60px;
+    }
+
+    .latest__headertitle{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .latest__headerbutton{
+        width: 180px;
+        font-size: 14px;
+        height: auto;
+    }
+
+    .meet__container{
+        max-width: 250px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meet__leftside{
+        max-width: 250px;
+        margin: 0;
+    }
+
+    .meet__leftsideimg{
+        width: 100px;
+        height: auto;
+    }
+
+    .meet__rightsideimg{
+        width: 100%;
+        height: auto;
+    }
+
+    .newsletter__container{
+        max-width: 250px;
+        flex-direction: column;
+    }
+
+    .newsletter__block{
+        width: 250px;
+        height: 550px;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .newsletter__textblock{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .newsletter__subscribe{
+        width: 100%;
+        font-size: 28px;
+        letter-spacing: 3px;
+        line-height: 40px;
+    }
+
+    .newsletter__buttonblock{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+
+    .newsletter__input{
+        width: 200px;
+    }
+}

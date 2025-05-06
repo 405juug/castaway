@@ -25,6 +25,7 @@
     font-size: 70px;
     line-height: 88px;
     color: var(--white);
+    margin-left: 20px;
 }
 
 .nextlvl__text{

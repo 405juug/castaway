@@ -1,0 +1,83 @@
+@media (max-width: 1024px) {
+    [class*='__container'] {
+        max-width: 900px;
+    }
+
+    .nextlvl__img{
+        width: 500px;
+        height: auto;
+    }
+
+    .latest__header{
+        max-width: 900px;
+    }
+
+    .latest__episode{
+        max-width: 900px;
+    }
+
+    .latest__episodetitle{
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .latest__gear{
+        margin-bottom: 20px;
+    }
+
+    .latest__episodetext{
+        max-width: 400px;
+        font-size: 18px;
+    }
+
+    .meet__rightsideimg{
+        width: 500px;
+        height: auto;
+        margin-top: 150px;
+    }
+
+    .latest__episodes{
+        margin-bottom: 100px;
+    }
+
+    .meet__leftsideimg{
+        width: 90px;
+    }
+
+    .meet__leftside{
+        margin-top: 50px;
+    }
+
+    .newsletter__block{
+        max-width: 900px;
+    }
+
+    .newsletter__subscribe{
+        font-size: 45px;
+        line-height: 50px;
+        margin-top: 15px;
+    }
+
+    .newsletter__input{
+        max-width: 350px;
+    }
+
+    .reviews__grid{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+        justify-items: center;
+    }
+
+    .reviews__block{
+        max-width: 400px;
+    }
+
+    .reviews__comment{
+        font-size: 36px;
+    }
+
+    .footer__container{
+        gap: 70px
+    }
+}

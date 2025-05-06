@@ -1,0 +1,114 @@
+@media (max-width: 768px) {
+    [class*='__container'] {
+        max-width: 650px;
+    }
+
+    .header__container
+
+    .nextlvl__container{
+        max-width: 650px;
+    }
+
+    .nextlvl__img{
+        width: 350px;
+        height: auto;
+    }
+
+    .nextlvl__title, .nextlvl__title span, .nextlvl__title strong{
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .latest__header{
+        max-width: 650px;
+    }
+
+    .latest__headertitle{
+        font-size: 40px;
+    }
+
+    .latest__episode{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .latest__episode img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius: 32px;
+        border-top-left-radius: 32px;
+    }
+
+    .latest__leftside, .latest__rightside{
+        margin: 0;
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .latest__rightside{
+        padding: 20px;
+    }
+
+    .latest__container{
+        margin-bottom: 1900px;
+
+    }
+
+    .meet__container{
+        max-width: 650px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .meet__leftsideimg{
+        width: 130px;
+        height: auto;
+    }
+
+    .meet__rightsideimg{
+        width: 650px;
+        height: auto;
+    }
+
+    .newsletter__container{
+        max-width: 650px;
+        flex-direction: column;
+    }
+
+    .newsletter__block{
+        width: 650px;
+        height: 550px;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .newsletter__buttonblock{
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+
+    .newsletter__input{
+        max-width: 650px;
+    }
+
+    .reviews__container{
+        max-width: 650px;
+    }
+
+    .reviews__grid{
+        max-width: 650px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__container{
+        gap: 60px
+    }
+
+    .footer__4thsidelogobar{
+        flex-direction: column;
+    }
+}
